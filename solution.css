@@ -1,0 +1,25 @@
+.orange{
+    background-color: orange;
+    height: 200px;
+    width: 100%;
+}
+.white{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+.green{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+}
+body{
+    margin: 0;
+    border: 2px solid;
+    width: 900px;
+}
+.white > img{
+    position: absolute;
+    left: 350px;
+}
